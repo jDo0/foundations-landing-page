@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo1 {
+    height: 64px;
+    width: 128px;
+    background-color: rebeccapurple;
+}
