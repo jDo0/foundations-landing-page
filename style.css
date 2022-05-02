@@ -1,3 +1,29 @@
+/* * {
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+} */
+
+/* div {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+} */
+
+html, body {
+    overflow-x: hidden;
+  }
+
+body {
+    margin: 0;
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -8,12 +34,140 @@ ul {
 }
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 21, 90);
+    color: white;
 }
 
 #logo1 {
     height: 64px;
     width: 128px;
     background-color: rebeccapurple;
+}
+
+#section1 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+#section1_subsection1 {
+    flex: 1;
+
+}
+#section1_subsection2 {
+    flex: 1;
+    background-color: lightgrey;
+}
+
+#section2 {
+
+}
+
+#section2_subsection1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 {
+    background-color: lightgrey;
+    margin: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#quotecredit {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#section4 {
+margin: 32px 0;
+
+}
+
+#section4_subsection1 {
+    display: flex;
+    background-color: rgb(71, 84, 237);
+    padding: 8px 16px;
+    min-height: 100px;
+}
+
+#calltoaction1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+}
+
+#calltoaction2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    background-color: rgb(71, 84, 237);
+    border: solid white 1px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+#button1 {
+    width: 80px;
+}
+
+#button2 {
+
+    width: 80px;
+
+}
+
+.card {
+    max-width: 15vw;
+    
+}
+
+.cardimg {
+    width: 100%;
+    /* max-width: 200px; */
+   
+}
+
+.imgdesc {
+    /* display: flex; */
+    text-align: center;
+}
+
+header, #section1 {
+    background-color: rgb(21, 21, 90);
+    color: white;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header, #section1, #section2, #section3, #section4, footer {
+    /* padding: 0 10%; */
+    padding-left: min(100px, 10%);
+    padding-right: min(100px, 10%);
+    gap: 16px;
+    /* max-width: 600px; */
 }
